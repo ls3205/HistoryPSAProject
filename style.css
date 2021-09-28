@@ -7,6 +7,21 @@ body{
     background: #e9e9e9;
 }
 
+p{
+    text-align: left;
+    margin-left: 5in;
+    margin-right: 5in;
+    text-indent: 1in;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header{
     margin: 0px;
     padding: 0px;
@@ -45,4 +60,103 @@ header a{
 
 header a:hover{
     color: dimgrey;
+}
+
+.wh_title{
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav-items li{
+    list-style: none;
+    display: inline-block;
+    padding: 75px;
+}
+
+.nav-items a{
+    text-decoration: none;
+}
+
+.wh_div{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/whathappened/VeraCruz.jpg);
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, .2);
+    transition-duration: 0.25s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 0px;
+    color: white;
+}
+
+.wh_div:hover{
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .3);
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+}
+
+.j_div{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, .2);
+    transition-duration: 0.25s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 0px;
+    color: white
+}
+
+.j_div:hover{
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .3);
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+}
+
+.oe_div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, .2);
+    transition-duration: 0.25s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 0px;
+    color: white
+}
+
+.oe_div:hover{
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .3);
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+}
+
+.e_div{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, .2);
+    transition-duration: 0.25s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+    font-size: 0px;
+    color: white
+}
+
+.e_div:hover{
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .3);
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+}
+
+.notice{
+    text-align: center;
 }
