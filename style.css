@@ -9,9 +9,9 @@ body{
 
 p{
     text-align: left;
-    margin-left: 5in;
-    margin-right: 5in;
-    text-indent: 1in;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    text-indent: 5vw;
     font-size: 20px;
     line-height: 30px;
     color: rgb(0, 1, 15);
@@ -75,7 +75,7 @@ h1{
 .nav-items li{
     list-style: none;
     display: inline-block;
-    padding: 75px;
+    padding: 4vw;
 }
 
 .nav-items a{
