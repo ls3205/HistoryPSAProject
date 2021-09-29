@@ -124,7 +124,7 @@ h1{
     font-size: 30px;
 }
 
-.oe_div{
+.tldr_div{
     width: 300px;
     height: 300px;
     background-color: blue;
@@ -139,7 +139,7 @@ h1{
     color: white
 }
 
-.oe_div:hover{
+.tldr_div:hover{
     box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .3);
     -webkit-text-stroke: 1px white;
     font-size: 30px;
